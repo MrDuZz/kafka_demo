@@ -48,6 +48,12 @@
             <groupId>kafka_demo</groupId>
             <artifactId>kafka_service</artifactId>
             <version>1.0-SNAPSHOT</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>gson</artifactId>
+                    <groupId>com.google.code.gson</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <!--<dependency>-->
             <!--<groupId>org.springframework.kafka</groupId>-->
