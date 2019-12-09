@@ -16,8 +16,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>kafka_ucenter</module>
-        <module>kafka_admin</module>
+        <module>kafka_producer</module>
+        <module>kafka_consumer</module>
         <module>kafka_service</module>
     </modules>
 
